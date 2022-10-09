@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+     
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css">
+    <title>Codificador</title>
+    
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img class="logoImg" src="Vector.png" alt="Imagem logo Alura">
+            <h1 class="tittle">Encriptador de mensagens</h1> 
+        </div>
+
+        <div class="left">
+            <textarea class="text-input" name="" cols="30" rows="10" placeholder="Digite seu texto:"></textarea>
+        </div>
+
+        <div class="right">
+            <img id="imgDir" src="boneco.png.png" alt="Boneco encontrando um diamante">
+            <h1 id="texto">Nenhuma mensagem encontrada</h1>
+            <textarea id="texto2" readonly name="" cols="30" rows="10">Digite um texto que você deseja criptografar ou descriptografar.</textarea>
+            <button id="copiar" onclick="copiar()">Copiar</button>
+        </div>
+
+        <div class="left-button">
+            <p class= "miuda">Apenas letras minúsculas e sem acento.</p>
+            <button id="btn-encriptar" onclick="btnEncriptar()">Criptografar</button>
+            <button id="btn-desencriptar" onclick="btnDesencriptar()">Descriptografar</button>
+        </div>
+    </div>
+
+    <div class="rodape">
+        <p>Criado por Welcy Jorge Brum Júnior em realização do Challenge 1 da Alura.</p>
+    </div>
+
+    
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
